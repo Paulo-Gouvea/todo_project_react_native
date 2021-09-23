@@ -15,7 +15,7 @@ export default function Home(){
         const doesTaskTitleExists = todoList.find(element => element.name === newTask)
         
         if(doesTaskTitleExists){
-            console.log("Já existe essa task!");
+            Alert.alert("Tarefa repetida", "A tarefa digitada já existe!");
             return;
         }
 
@@ -37,7 +37,6 @@ export default function Home(){
     }
 
     function handleCheckTask(taskID: string){
-        console.log(taskID)
         const updatedTodoList = todoList;
         const findTask = updatedTodoList.find(element => element.id === taskID);
 
