@@ -24,7 +24,7 @@ export function TodoList({ tasks, deleteTask, checkTask }: TodoListProps){
                 renderItem={({item}) => {
                     return (
                         <View style={styles.todoItem}>
-                            <View style={styles.test}>
+                            <View style={styles.todoItemWrapper}>
                                 <TouchableOpacity
                                     onPress={() => checkTask(item.id)}
                                 >
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
         height: '60%',
         marginTop: 30,
     },
-    test: {
+    todoItemWrapper: {
         flexDirection: 'row',
         alignItems: 'center',
     },
