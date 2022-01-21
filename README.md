@@ -1,13 +1,12 @@
 # Aplicação pessoal de to-do
 
-![todo_project_image](https://user-images.githubusercontent.com/76439397/135656694-596c0ef1-427f-419b-bed1-48ee29910052.jpg)
+![app](https://user-images.githubusercontent.com/76439397/150572124-d213cc67-6d4f-495b-b99b-6e88336e9597.jpg)
 
 # Projeto
 
 Aplicação de gerenciamento de tarefas que é utilizado para estudo de conceitos e tecnologias do React Native.
 
 # Demonstração do projeto
-
 
 https://user-images.githubusercontent.com/76439397/135658046-471cec57-588f-4f74-abec-749cd8f31c35.mp4
 
